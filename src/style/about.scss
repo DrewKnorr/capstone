@@ -1,0 +1,53 @@
+.about-us-wrapper{
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 52px 5px rgba(0,0,0,0.75);
+    
+    .about-us-content{
+        display: flex;
+        justify-content: space-evenly;
+        overflow-y:scroll;
+        .about-content-wrapper{
+            box-shadow: 0px 10px 52px 5px rgba(0,0,0,0.75);
+            padding:25px;
+            height:600px;
+            width:775px;
+            margin-top:5%;
+            
+        }
+        
+
+        #first{
+            background-image: url("../../static/assets/images/about-us/mission-img.jpg");
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+
+        }
+        #second{
+            margin-top:875px;
+            background-image: url("../../static/assets/images/about-us/about.jpg");
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+            margin-bottom:25px;
+        }
+
+        h1{
+            
+            font-weight:900;
+            font-size:45px;
+            color:gold;
+            background-color:#087ca7;
+            padding:15px;
+            z-index:-1;
+        }
+        p{
+
+            font-weight:900;
+            color:white;
+            background-color:#087da7b9;
+            padding:15px;
+            z-index:-1;
+            font-size:30px;
+        }
+    }
+}

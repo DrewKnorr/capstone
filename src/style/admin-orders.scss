@@ -1,0 +1,20 @@
+.admin-orders-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+    .all-orders-wrapper{
+        #all-orders{
+            display:flex;
+            flex-direction: column;
+            width:900px;
+            height:700px;
+            overflow-y:auto;
+            .order{
+                border:1px solid black;
+                padding:5px;
+
+            }
+        }
+    }
+}

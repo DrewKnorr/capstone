@@ -1,0 +1,133 @@
+.quote-wrapper{
+    margin-top:20px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:gold;
+    
+    
+
+    
+    height:700px;
+    padding:5px;
+    
+    h1,p{
+        background-color:#087ca7;
+        padding:10px;
+
+    }
+    
+
+    .quote-content{
+        width:85%;
+        height:700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:15px;
+        
+        background-color:transparent;
+
+        
+        .quote-container{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            
+            border-radius:5px;
+            .loading-wrapper{
+                margin-top:300px;
+                position: absolute;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .quote-form{
+                width:850px;
+                display:flex;
+                flex-direction: column;
+                padding:45px;
+                background-color:#05b2dc;
+
+
+                label{
+                    margin-top:10px;
+                    margin-left:15px;
+                    margin-bottom:25px;
+                    background-color:#087ca7;
+                    width:120px;
+                    padding:5px;
+                    font-weight:900;
+                    color:gold;
+                    box-shadow: -38px 22px 96px 0px rgba(0,0,0,0.75);
+                    
+                }
+                select{
+                    width:130px;
+                    background-color:#087ca7;
+                    border:none;
+                    color:gold;
+                    margin-top:-15px;
+                }
+                
+                button{
+                    width:200px;
+                    height:50px;
+                    font-size:35px;
+                    
+                    background-color:#087ca7;
+                    color:gold;
+                    border:none;
+                    margin-top:10px;
+                    margin-left:600px;
+                    border-radius: 5px;
+                    margin-bottom:15px;
+                    
+                }
+                .file_upload_container{
+                    #file_upload_btn{
+                        width:300px;
+                        margin:5px;
+                        background-color:#087ca7;
+                        padding:5px;
+                    }
+                    margin-bottom:25px;
+                    overflow-y:scroll;
+                    height:120px;
+                    width:110%;
+                    padding:25px;
+                    h2{
+                        background-color:#087ca7;
+                        width:350px;
+                        padding:15px;
+                    }
+                }
+                .add_more_files{
+                    background-color:transparent;
+                    width:50px;
+                    font-size:45px;
+                    font-weight:900;
+                    background-color:transparent;
+                    text-align: center;
+                    border:none;
+                    border-radius: 50%;
+
+                    
+                    margin-left:80%;
+                    margin-top:-85px;
+                    transition: .15s ease-in-out;
+                    &:hover{
+                       font-size:50px;
+                    }
+
+                }
+            }
+        }
+    }
+}

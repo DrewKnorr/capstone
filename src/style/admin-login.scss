@@ -1,0 +1,32 @@
+.admin-auth-page-wrapper{
+    display:flex;
+    justify-content: center;
+    .center-column{
+        div{
+            margin-top:50px;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            padding:15px;
+            form{
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding:5px;
+                label{
+                    margin:5px;
+                }
+                button{
+                    background-color: #033860;
+                    color:gold;
+                    font-size:20px;
+                    border:none;
+                    padding:10px;
+                }
+            }
+        }
+    }
+}

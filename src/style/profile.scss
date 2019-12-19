@@ -1,0 +1,24 @@
+.profile-wrapper{
+    padding:15px;
+
+    .title-wrapper{
+        background:#087ca7;
+        color:gold;
+        padding:5px;
+        width:850px;
+    }
+    .order-history-info{
+        width:850px;
+        h4{
+            background:#087ca7;
+            color:gold;
+            padding:15px;
+            width:100px;
+        }
+        .order-history-container{
+            width :800px; 
+            height:500px;
+            overflow-y: auto;
+        }
+    }
+}

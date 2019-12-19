@@ -1,0 +1,33 @@
+
+.requests-wrapper{
+    .request-container{
+        h1{
+            background:#087ca7;
+            padding:15px;
+            color:gold;
+        }
+        #requests{
+            background:#087ca7;
+            padding:15px;
+            color:gold;
+            width:700px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left:150px;
+            font-weight:700;
+            border-radius: 5px 10px 200px 5px;
+            button{
+                background:#05b2dc;
+                padding:5px;
+                font-size:15px;
+                font-weight:900;
+                color:white;
+                border:none;
+                border-radius: 5px;
+                margin:10px 10px 10px 10px;
+            }
+        }
+    }
+}
