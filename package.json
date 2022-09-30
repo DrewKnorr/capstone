@@ -66,7 +66,7 @@
     "react-request": "^3.1.2",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.3.1",
-    "recharts": "^2.0.0-beta.1",
+    "recharts": "^2.1.14",
     "redux": "^3.7.2",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.21.0",
